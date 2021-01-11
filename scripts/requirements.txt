@@ -1,0 +1,21 @@
+# Data Manipulation
+
+numpy
+pandas
+
+# Audio Analysis
+
+librosa
+
+# Machine Learning Library
+
+scikit-learn
+
+# Deep Learning Library
+
+torch
+torchvision
+
+# Basic Visualization
+
+matplotlib
