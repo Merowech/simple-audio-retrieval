@@ -33,7 +33,7 @@ https://librosa.org/doc/latest/index.html
  **d)** 9  
  Be creative again. FastAPI/Flask should enable an easy web app, but you can also use d3 and a html only version.  
  **e)** Bonus Points: 6  
- Be creative as possible. The coller the idea, the better.  
+ Be creative as possible. The cooler the idea, the better.  
 
  ## Submission
 
