@@ -31,14 +31,11 @@ https://librosa.org/doc/latest/index.html
  **c)** 12  
  Show how your similarity function works and how to apply kNearestNeighbor search on the data.   
  The more robust your extracted features and similarity function are, the more points you get.  
-    
-Please submit one file for the previous tasks. E.g., extraction_storing_script.py  
-   
+```Please submit one file for the previous tasks. E.g., extraction_storing_script.py```  
  **d)** 9  
  Be creative again. FastAPI/Flask should enable an easy web app, but you can also use d3 and a html only version.  
-    
-Please submit here your web app. E.g., music_backend / music_frontend   
-    
+```Please submit here your web app. E.g., music_backend / music_frontend```  
+  
  **e)** Bonus Points: 6  
  Be creative as possible. The cooler the idea, the better.  
 
