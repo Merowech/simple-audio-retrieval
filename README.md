@@ -9,19 +9,20 @@ https://github.com/mdeff/fma
 Another script will shortly introduce librosa and audio feature extractions.  
 https://librosa.org/doc/latest/index.html
   
-# Task and Points
+# Tasks and Points
  **a)** Download the needed data (the get_data.py should help or use curl or etc.) and install the needed libraries.  
     Make yourself familiar with librosa and the data.  
     Connect the labels of the data with the data itself.  
  **b)** Extract features from the data and store them in a way you prefer.  
-    Randomly select 5% of the data as query samples.  
+    Randomly select 5% (400) of the data as query samples.  
  **c)** Create a similarity function based on your extracted features.  
-    Create a kNearestNeighbor ranking of the query samples.  
+    Create a kNearestNeighbor ranking of the query samples to their nearest neighbors from the whole dataset.  
  **d)** Create a web app to interactively search for nearest neighbors.   
     Let a user select a sample and visualize the similarity function and features.  
- **e) BONUS:** Enhance the web app with more interaction and visualization features. **Be CREATIVE!**    
+ **e) BONUS + OPTIONAL:** Enhance the web app with statistics, more interaction and visualization features. **Be CREATIVE!**    
    
- Overall points: 36  
+ Overall points: 36 (+6 bonus points)  
+   
  **a)** 3  
  Show some steps to load all the data and show some statistics.  
  **b)** 12  
@@ -30,8 +31,14 @@ https://librosa.org/doc/latest/index.html
  **c)** 12  
  Show how your similarity function works and how to apply kNearestNeighbor search on the data.   
  The more robust your extracted features and similarity function are, the more points you get.  
+    
+Please submit one file for the previous tasks. E.g., extraction_storing_script.py  
+   
  **d)** 9  
  Be creative again. FastAPI/Flask should enable an easy web app, but you can also use d3 and a html only version.  
+    
+Please submit here your web app. E.g., music_backend / music_frontend   
+    
  **e)** Bonus Points: 6  
  Be creative as possible. The cooler the idea, the better.  
 
@@ -80,8 +87,9 @@ https://librosa.org/doc/latest/index.html
 https://fastapi.tiangolo.com/  
 https://pytorch.org/  
   
-https://musicinformationretrieval.com/index.html 
-
+https://musicinformationretrieval.com/index.html   
+https://www.audiolabs-erlangen.de/fau/professor/mueller  
+https://www.justinsalamon.com/melody-extraction.html   
 
 # Acknowledgements
 
