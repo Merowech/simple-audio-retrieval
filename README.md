@@ -3,6 +3,8 @@
 Simple Audio Retrieval Project for   
 ```Multimedia Retrieval 2: Advanced Topics```   
 from ```Prof. Daniel A. Keim, University of Konstanz```.  
+
+The project is conceptualized to get into multimedia retrieval with a real-world example. Students should learn how to tackle a multimedia problem with their own experience and tests based on just a task. Various challenges should emerge, like a missing ground truth or a changing ground truth depending on the application's use case. Further, developing a small web app should help students dig deeper into the multimedia retrieval tasks for end-users.  
   
 This is the base repo and will provide code for a script to download songs from the FMA dataset for music analysis.  
 https://github.com/mdeff/fma  
@@ -28,9 +30,11 @@ https://librosa.org/doc/latest/index.html
  **b)** 12  
  Show how to store the data after you loaded it and how to extract featrures.  
  Be creative with the features and test them. Robust/good or creative features get you points.  
+ HINT: As there is no ground truth. Think about how you could provide some proxy tasks to test them for robustness.   
  **c)** 12  
  Show how your similarity function works and how to apply kNearestNeighbor search on the data.   
  The more robust your extracted features and similarity function are, the more points you get.  
+ HINT: Think about similarity functions of the previous lecture. There are more than just Euclidean distance.   
 ```Please submit one file for the previous tasks. E.g., extraction_storing_script.py```  
  **d)** 9  
  Be creative again. FastAPI/Flask should enable an easy web app, but you can also use d3 and a html only version.  
